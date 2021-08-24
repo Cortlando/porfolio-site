@@ -1,14 +1,97 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #31393C
+  /*background-color: #31393C;*/
+  animation: 10000ms ease-in-out infinite color-change;
 }
 
+
+@keyframes color-change {
+  0% {
+    background-color: #31393C;
+    transition: opacity 2s ease-in-out;
+  }
+  10%{
+    background-color: #404B4F;
+    transition: opacity 2s ease-in-out;
+  }
+  20%{
+    background-color: #49555A;
+    transition: opacity 2s ease-in-out;
+  }
+  30% {
+    background-color: #535F65;
+    transition: opacity 2s ease-in-out;
+  }
+  40% {
+    background-color: #5C6970;
+    transition: opacity 2s ease-in-out;
+  }
+
+  60% {
+    background-color: #5C6970;
+    transition: opacity 2s ease-in-out;
+  }
+  70%{
+    background-color: #535F65;
+    transition: opacity 2s ease-in-out;
+  }
+  80% {
+    background-color: #49555A;
+    transition: opacity 2s ease-in-out;
+  }
+  90%{
+    background-color: #404B4F;
+    transition: opacity 2s ease-in-out;
+  }
+  100% {
+    background-color: #31393C;
+    transition: opacity 2s ease-in-out;
+  }
+}
+
+
+/*
+#C850C0background-color: #331133;
+background-image: linear-gradient(45deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+
+*/
+
+/* @keyframes color-change {
+  0% {
+    background-color: #331133;
+    background-image: linear-gradient(0deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+  20% {
+    background-color: #331133;
+    background-image: linear-gradient(72deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+  40% {
+    background-color: #331133;
+    background-image: linear-gradient(144deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+  60% {
+    background-color: #331133;
+    background-image: linear-gradient(216deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+  80% {
+    background-color: #331133;
+    background-image: linear-gradient(288deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+  100% {
+    background-color: #331133;
+    background-image: linear-gradient(360deg, #331133 0%, #cc6688 46%, #22ddcc 100%);
+    transition: opacity 2s ease-in-out;
+  }
+} */
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
