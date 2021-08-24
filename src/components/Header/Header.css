@@ -1,0 +1,21 @@
+img{
+    border-radius: 50%;
+}
+
+.Picture{
+    margin:0 auto;
+    display: table;
+    padding-bottom: 1%s;
+}
+
+.ContactInfo{
+    margin:0 auto;
+    display: table;
+}
+
+.ContactInfo p{
+display: inline;
+margin: 5px;
+padding: 5px;
+}
+
