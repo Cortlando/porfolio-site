@@ -16,13 +16,26 @@
 }
 
 .ProjectOne{
-    margin-bottom: 2vh;
+    
     text-align: center;
     border: solid;
+    border-color: purple;
 }
 
-.ProjectTwo{
+.ProjectTwo{  
     text-align: center;
+    border: solid;
+    border-color: #F79824;
+}
+
+#ProjectOneImg{
+    width: 75%;
+    height: 75%;
+}
+
+#ProjectTwoImg{
+    width: 75%;
+    height: 75%;
 }
 
 .Projects{
