@@ -17,11 +17,14 @@ const ContactMe = () => {
 
     return (
         <div>
-            
+
             <div className="ContactBody">
                 <div className="Email">
                     <div className="EmailLogo">
-                        <Email className={classes.logo} />
+                        <a href = "mailto: cortlandervins@gmail.com">
+                            <Email className={classes.logo} />
+                        </a>
+
                     </div>
                     <div className="EmailText">
                         <Typography variant="h4">
@@ -34,9 +37,9 @@ const ContactMe = () => {
                 <div className="GitHub">
                     <div className="GitHubLogo">
                         <Link href="https://github.com/Cortlando">
-                        <GitHub className={classes.logo} />
+                            <GitHub className={classes.logo} />
                         </Link>
-                        
+
                     </div>
                     <div className="GitHubText">
                         <Typography variant="h4">
@@ -50,9 +53,9 @@ const ContactMe = () => {
                 <div className="LinkedIn">
                     <div className="LinkedInLogo">
                         <Link href="https://linkedin.com/in/cortland-ervins/">
-                        <LinkedIn className={classes.logo} />
+                            <LinkedIn className={classes.logo} />
                         </Link>
-                        
+
                     </div>
                     <div className="LinkedInText">
                         <Typography variant="h4">
