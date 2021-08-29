@@ -19,3 +19,8 @@ margin: 5px;
 padding: 5px;
 }
 
+.Header{
+    position: fixed;
+    top: 0;
+    width: 100%
+}

@@ -16,10 +16,11 @@ const useStyles = makeStyles((theme) => ({
 
     },
     appBar: {
-        position: 'relative',
+        position: 'fixed',
         display: 'inline-block',
 
-        background: "#F79824"
+        background: "#F79824",
+        zIndex: 1500
     }
 }));
 
@@ -30,9 +31,21 @@ const Header = () => {
     return (
         <div className="Header">
             <AppBar className={classes.appBar}>
-                <Link to="/">
+                <a href="#HomeSection">  
                     <Button> Home </Button>
-                </Link>
+                </a>
+                <a href="#SkillsSection">  
+                    <Button> Skills </Button>
+                </a>
+                <a href="#ExperienceSection">  
+                    <Button> Experience </Button>
+                </a>
+            </AppBar>
+        </div>
+    )
+}
+
+/*
 
                 <Link to="/Contact">
                     <Button> Contact Me </Button>
@@ -49,9 +62,5 @@ const Header = () => {
                 <Link to="/Projects">
                     <Button> Projects </Button>
                 </Link>
-            </AppBar>
-        </div>
-    )
-}
-
+*/
 export default Header

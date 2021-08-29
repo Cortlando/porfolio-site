@@ -26,7 +26,7 @@ const Home = () => {
     const classes = useStyles()
     return (
         <div>
-            <Header />
+            
             <div className="HomeBody">
                 <div className="HomeTitle">
                     <Typography variant="h1">

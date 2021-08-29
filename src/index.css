@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*background-color: #31393C;*/
   animation: 10000ms ease-in-out infinite color-change;
+  scroll-behavior: smooth;
 }
 
 

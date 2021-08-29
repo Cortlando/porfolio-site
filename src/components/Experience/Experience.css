@@ -1,0 +1,32 @@
+.ExperienceHeader{
+    text-align: center;
+}
+
+.WorkOne{
+    display: block;
+}
+
+.WorkOneTextTitle{
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.WorkOneTextTitleDate{
+    
+}
+
+.ProjectOne{
+    margin-bottom: 2vh;
+    text-align: center;
+    border: solid;
+}
+
+.ProjectTwo{
+    text-align: center;
+}
+
+.Projects{
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+}

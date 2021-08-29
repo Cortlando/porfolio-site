@@ -17,7 +17,7 @@ const ContactMe = () => {
 
     return (
         <div>
-            <Header />
+            
             <div className="ContactBody">
                 <div className="Email">
                     <div className="EmailLogo">
