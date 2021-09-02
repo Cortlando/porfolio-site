@@ -1,0 +1,23 @@
+.PersonalProjectHeader{
+    text-align: center;
+}
+
+.PersonalProjectBody{
+    text-align: center;
+}
+
+#PersonalProjectOneImage{
+    width: 75%;
+    height: 75%;
+}
+
+.PersonalProjectOneButtons{
+    /* display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 1fr)); */
+    display: flex;
+    justify-content: center;
+}
+
+.PersonalProjectOneRepo{
+    padding-right: 5%;
+}

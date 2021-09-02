@@ -1,16 +1,21 @@
+.ContactHeader{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
 .ContactBody{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .Email{
-    height: 100vh;
+    /* height: 100vh; */
     width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .EmailLogo{
@@ -18,19 +23,19 @@
 }
 
 .GitHub{
-    height: 100vh;
+    /* height: 100vh; */
     width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .LinkedIn{
-    height: 100vh;
+    /* height: 100vh; */
     width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }

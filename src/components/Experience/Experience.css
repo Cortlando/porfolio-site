@@ -22,10 +22,19 @@
     border-color: purple;
 }
 
+.ProjectOneText{
+    list-style-position: inside;
+    text-align: initial;
+}
+
 .ProjectTwo{  
     text-align: center;
     border: solid;
     border-color: #F79824;
+}
+
+.ProjectTwoText{
+    text-align: justify;
 }
 
 #ProjectOneImg{

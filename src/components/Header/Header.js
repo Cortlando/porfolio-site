@@ -32,13 +32,19 @@ const Header = () => {
         <div className="Header">
             <AppBar className={classes.appBar}>
                 <a href="#HomeSection">  
-                    <Button> Home </Button>
+                    <Button>Home</Button>
                 </a>
                 <a href="#SkillsSection">  
-                    <Button> Skills </Button>
+                    <Button>Skills</Button>
                 </a>
                 <a href="#ExperienceSection">  
-                    <Button> Experience </Button>
+                    <Button>Experience</Button>
+                </a>
+                <a href="#PersonalProjectSection">  
+                    <Button>Personal Project</Button>
+                </a>
+                <a href="#ContactMeSection">  
+                    <Button>Contact Me</Button>
                 </a>
             </AppBar>
         </div>

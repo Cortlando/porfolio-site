@@ -47,9 +47,13 @@ const Experience = () => {
                                 </div>
                                 <div className="ProjectOneText">
                                     <Typography variant="h5">
-                                        My Team and I created a web application that let the user track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.<br></br>
-                                        The data needed for the site was obtained through various APIs and was displayed with charts and graphs <br></br>
-                                        The application was developed using React.js and Node.js along with Chart.js and Material-Ui
+                                        <ul>
+                                            <li>My Team and I created a web application that let the user track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.</li>
+                                            <li>The data needed for the site was obtained through various APIs and was displayed with charts and graphs</li>
+                                            <li>The application was developed using React.js and Node.js along with Chart.js and Material-Ui</li>
+                                        </ul>
+
+                                        
                                     </Typography>
                                 </div>
                                 <div className="ProjectOneButtons">
@@ -74,10 +78,18 @@ const Experience = () => {
 
                                 <div className="ProjectTwoText">
                                     <Typography variant="h5">
-                                        This application was made to allow a user to quickly view and edit a database containg the information of every Discover intern in the Code_Orange program. <br></br>
-                                        Users could add interns to the database,  edit information about interns(email, phone number, etc...), and remove them from the database <br></br>
-                                        The Interns in the database would be organized into tables in the app, and users could sort through them in various ways.(alphabetically, by location, amount of years in program, etc...)<br></br>
-                                        This application was developed using React.js and SpringBoot
+                                        <ul>
+                                            <li>This application was made to allow a user to quickly view and edit a database containg the information of every Discover intern in the Code_Orange program.</li>
+                                            <li>Interns were displayed using tables</li>
+                                            <li>Users could</li>
+                                                <ul>
+                                                    <li>Add interns to the database</li>
+                                                    <li>Sort through the interns in various ways(alphabetically, by location, amount of years in program, etc...)</li>
+                                                    <li>Edit the information of an intern</li>
+                                                    <li>Delete interns from the database</li>
+                                                </ul>
+                                        </ul>
+
                                     </Typography>
                                 </div>
                             </div>
@@ -92,3 +104,17 @@ const Experience = () => {
 }
 
 export default Experience
+
+{/* <Typography variant="h5">
+My Team and I created a web application that let the user track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.<br></br>
+The data needed for the site was obtained through various APIs and was displayed with charts and graphs <br></br>
+The application was developed using React.js and Node.js along with Chart.js and Material-Ui
+</Typography> */}
+
+
+{/* <Typography variant="h5">
+This application was made to allow a user to quickly view and edit a database containg the information of every Discover intern in the Code_Orange program. <br></br>
+Users could add interns to the database,  edit information about interns(email, phone number, etc...), and remove them from the database <br></br>
+The Interns in the database would be organized into tables in the app, and users could sort through them in various ways.(alphabetically, by location, amount of years in program, etc...)<br></br>
+This application was developed using React.js and SpringBoot
+</Typography> */}
