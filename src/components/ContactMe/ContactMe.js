@@ -41,7 +41,7 @@ const ContactMe = () => {
 
                 <div className="GitHub">
                     <div className="GitHubLogo">
-                        <Link href="https://github.com/Cortlando">
+                        <Link href="https://github.com/Cortlando" target="_blank">
                             <GitHub className={classes.logo} />
                         </Link>
 
@@ -57,7 +57,7 @@ const ContactMe = () => {
 
                 <div className="LinkedIn">
                     <div className="LinkedInLogo">
-                        <Link href="https://linkedin.com/in/cortland-ervins/">
+                        <Link href="https://linkedin.com/in/cortland-ervins/" target="_blank">
                             <LinkedIn className={classes.logo} />
                         </Link>
 

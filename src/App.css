@@ -1,12 +1,33 @@
-#SkillsSection{
-    background-color: whitesmoke;
+#HomeSection{
+    margin: 5%;
 }
+
+#SkillsSection{
+    margin: 5%;
+}
+
+#ExperienceSection{
+    margin: 5%;
+}
+
+#PersonalProjectSection{
+    margin: 5%;
+}
+
 #ContactMeSection{
-    margin-top: 5%;
+    margin: 5%;
 }
 
 .SpaceFiller{
-    height: 100px;
+    height: 1%;
     width: 100%;
     clear: both;
+}
+
+.App{
+    display: flex;
+    /* This makes the website un adaptive, might be for the best at the moment */
+    
+    flex-direction: column;
+    
 }

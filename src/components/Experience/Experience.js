@@ -58,7 +58,7 @@ const Experience = () => {
                                 </div>
                                 <div className="ProjectOneButtons">
                                     <div className="ProjectOneRepo">
-                                        <Button href="https://github.com/Cortlando/Covid-19-Tracker" variant="contained" color="secondary" size="large">
+                                        <Button href="https://github.com/Cortlando/Covid-19-Tracker" variant="contained" color="secondary" size="large" target="_blank">
                                             Repo
                                         </Button>
                                     </div>

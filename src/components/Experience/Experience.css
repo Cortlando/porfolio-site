@@ -7,7 +7,7 @@
 }
 
 .WorkOneTextTitle{
-    margin-bottom: 2vh;
+    margin-bottom: 1%;
     text-align: center;
 }
 
@@ -25,6 +25,7 @@
 .ProjectOneText{
     list-style-position: inside;
     text-align: initial;
+    overflow: auto;
 }
 
 .ProjectTwo{  
@@ -35,6 +36,7 @@
 
 .ProjectTwoText{
     text-align: justify;
+    overflow: auto;
 }
 
 #ProjectOneImg{

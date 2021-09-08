@@ -4,12 +4,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*background-color: #31393C;*/
-  animation: 10000ms ease-in-out infinite color-change;
+  /* animation: 10000ms ease-in-out infinite color-change; */
   scroll-behavior: smooth;
+
+  background: linear-gradient(245deg, #9712c8, #2b60e6, #fbfbfb, #7022ca, #995fdb, #5309a7, #d3c3e6);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: BackgroundAnimation 60s ease infinite;
+  -moz-animation: BackgroundAnimation 60s ease infinite;
+  -o-animation: BackgroundAnimation 60s ease infinite;
+  animation: BackgroundAnimation 60s ease infinite;
 }
 
 
-@keyframes color-change {
+@-webkit-keyframes BackgroundAnimation {
+  0%{background-position:61% 0%}
+  50%{background-position:40% 100%}
+  100%{background-position:61% 0%}
+}
+@-moz-keyframes BackgroundAnimation {
+  0%{background-position:61% 0%}
+  50%{background-position:40% 100%}
+  100%{background-position:61% 0%}
+}
+@-o-keyframes BackgroundAnimation {
+  0%{background-position:61% 0%}
+  50%{background-position:40% 100%}
+  100%{background-position:61% 0%}
+}
+@keyframes BackgroundAnimation {
+  0%{background-position:61% 0%}
+  50%{background-position:40% 100%}
+  100%{background-position:61% 0%}
+}
+/* @keyframes color-change {
   0% {
     background-color: #31393C;
     transition: opacity 2s ease-in-out;
@@ -51,7 +79,7 @@ body {
     background-color: #31393C;
     transition: opacity 2s ease-in-out;
   }
-}
+} */
 
 
 /*

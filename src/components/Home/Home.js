@@ -1,11 +1,9 @@
 import React from 'react'
 
-import Header from '../Header/Header'
 import { Avatar } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 
-import MyPic from "./portrait.jpg"
 import './Home.css'
 const useStyles = makeStyles((theme) => ({
     picture: {
@@ -39,14 +37,14 @@ const Home = () => {
                 <div className="picContainer">
 
                     <div className="MyPic">
-                        <Avatar alt="Cortland Ervins" src={MyPic} className={classes.picture} />
+                        <Avatar alt="Cortland Ervins" src={process.env.PUBLIC_URL + './portrait.jpg'} className={classes.picture} />
                     </div>
                 </div>
 
                 <div className="summary">
-                    <Typography variant="h3">
-                        Hello!<br></br>I am a recent graudate of Northern Illinois University looking to start my career in the field of software development.
-                        Please click the buttons above to learn more about me
+                    <Typography variant="h4">
+                        Hello!<br></br>I am a recent graudate of Northern Illinois University and full stack developer looking to start my career in the field of software development.
+                        
                     </Typography>
 
 

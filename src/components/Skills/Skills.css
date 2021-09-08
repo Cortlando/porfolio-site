@@ -4,7 +4,9 @@
 
     /* grid-template-columns: repeat(3, 1fr); */
 
-    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    /* grid-template-columns: repeat(3, minmax(240px, 1fr)); */
+
+    grid-template-columns: repeat(3, minmax(auto, 33%));
 
     --stagger-delay: 100ms;
 }

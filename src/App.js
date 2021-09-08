@@ -5,7 +5,6 @@ import Header from './components/Header/Header';
 import ContactMe from './components/ContactMe/ContactMe'
 import Experience from './components/Experience/Experience';
 import PersonalProject from './components/PersonalProject/PersonalProject';
-import { Toolbar } from '@material-ui/core';
 import Skills from './components/Skills/Skills';
 import './App.css'
 function App() {
@@ -17,12 +16,13 @@ function App() {
       </div>
 
       <div id="HomeSection" className="HomeSection">
-      <div className="SpaceFiller"></div>
-
+      
         <Home />
+        
       </div>
 
       <div id="SkillsSection" className="SkillsSection">
+        
         <Skills />
       </div>
 

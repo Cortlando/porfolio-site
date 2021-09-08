@@ -31,12 +31,12 @@ const PersonalProject = () => {
                     </div>
                     <div className="PersonalProjectOneButtons">
                         <div className="PersonalProjectOneRepo">
-                            <Button href="https://github.com/Cortlando/chat-room-app " variant="contained" color="secondary" size="large">
+                            <Button href="https://github.com/Cortlando/chat-room-app " variant="contained" color="secondary" size="large" target="_blank">
                                 Repo
                             </Button>
                         </div>
                         <div className="PersonalProjectOneLink">
-                            <Button href="https://cortlando.github.io/chat-room-app-frontend/#/" variant="contained" color="secondary" size="large">
+                            <Button href="https://cortlando.github.io/chat-room-app-frontend/#/" variant="contained" color="secondary" size="large" target="_blank">
                                 Link
                             </Button>
                         </div>
