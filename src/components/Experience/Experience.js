@@ -29,8 +29,7 @@ const Experience = () => {
 
 
                         <Typography variant="h6">
-                            I worked in a team of six developers with one scrum master(all interns),
-                            where we created applications using React.js and SpringBoot. <br></br>
+                            Worked with a team of developers and a scrum master creating applications using React.js and SpringBoot. <br></br>
                         </Typography>
 
 
@@ -48,7 +47,7 @@ const Experience = () => {
                                 <div className="ProjectOneText">
                                     <Typography variant="h5">
                                         <ul>
-                                            <li>My Team and I created a web application that let the user track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.</li>
+                                            <li>My Team and I created a web application that allowed the user to track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.</li>
                                             <li>The data needed for the site was obtained through various APIs and was displayed with charts and graphs</li>
                                             <li>The application was developed using React.js and Node.js along with Chart.js and Material-Ui</li>
                                         </ul>
@@ -60,6 +59,11 @@ const Experience = () => {
                                     <div className="ProjectOneRepo">
                                         <Button href="https://github.com/Cortlando/Covid-19-Tracker" variant="contained" color="secondary" size="large" target="_blank">
                                             Repo
+                                        </Button>
+                                    </div>
+                                    <div className="ProjectOneLink">
+                                        <Button href="https://covid19trackerproject.com/" variant="contained" color="secondary" size="large" target="_blank">
+                                            Link
                                         </Button>
                                     </div>
                                 </div>
@@ -79,12 +83,12 @@ const Experience = () => {
                                 <div className="ProjectTwoText">
                                     <Typography variant="h5">
                                         <ul>
-                                            <li>This application was made to allow a user to quickly view and edit a database containg the information of every Discover intern in the Code_Orange program.</li>
+                                            <li>This application was made to allow a user to quickly view and edit a database containing the information of every Discover intern in the Code_Orange program.</li>
                                             <li>Interns were displayed using tables</li>
-                                            <li>Users could</li>
+                                            <li>Users could:</li>
                                                 <ul>
                                                     <li>Add interns to the database</li>
-                                                    <li>Sort through the interns in various ways(alphabetically, by location, amount of years in program, etc...)</li>
+                                                    <li>Sort through the interns in various ways (alphabetically, by location, amount of years in program, etc...)</li>
                                                     <li>Edit the information of an intern</li>
                                                     <li>Delete interns from the database</li>
                                                 </ul>

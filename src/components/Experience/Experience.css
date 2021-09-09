@@ -28,6 +28,15 @@
     overflow: auto;
 }
 
+.ProjectOneButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectOneRepo{
+    padding-right: 5%;
+}
+
 .ProjectTwo{  
     text-align: center;
     border: solid;

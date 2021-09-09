@@ -7,16 +7,43 @@ body {
   /* animation: 10000ms ease-in-out infinite color-change; */
   scroll-behavior: smooth;
 
-  background: linear-gradient(245deg, #9712c8, #2b60e6, #fbfbfb, #7022ca, #995fdb, #5309a7, #d3c3e6);
+  /* background: linear-gradient(245deg, #9712c8, #2b60e6, #fbfbfb, #7022ca, #995fdb, #5309a7, #d3c3e6);
   background-size: 1400% 1400%;
 
   -webkit-animation: BackgroundAnimation 60s ease infinite;
   -moz-animation: BackgroundAnimation 60s ease infinite;
   -o-animation: BackgroundAnimation 60s ease infinite;
-  animation: BackgroundAnimation 60s ease infinite;
+  animation: BackgroundAnimation 60s ease infinite; */
+  background: linear-gradient(51deg, #aea5ae, #dfdddf, #8ed6e6, #b0d2d9);
+  background-size: 800% 800%;
+
+  -webkit-animation: BackgroundAnimation 11s ease infinite;
+  -moz-animation: BackgroundAnimation 11s ease infinite;
+  -o-animation: BackgroundAnimation 11s ease infinite;
+  animation: BackgroundAnimation 11s ease infinite;
 }
 
-
+@-webkit-keyframes BackgroundAnimation {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@-moz-keyframes BackgroundAnimation {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@-o-keyframes BackgroundAnimation {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@keyframes BackgroundAnimation {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+/* 
 @-webkit-keyframes BackgroundAnimation {
   0%{background-position:61% 0%}
   50%{background-position:40% 100%}
@@ -36,7 +63,7 @@ body {
   0%{background-position:61% 0%}
   50%{background-position:40% 100%}
   100%{background-position:61% 0%}
-}
+} */
 /* @keyframes color-change {
   0% {
     background-color: #31393C;
