@@ -1,0 +1,47 @@
+.SkillsBody{
+    display: grid;
+    gap: 1rem;
+
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    /* grid-template-columns: repeat(3, minmax(240px, 1fr)); */
+
+    grid-template-columns: repeat(3, minmax(auto, 33%));
+
+    --stagger-delay: 100ms;
+}
+
+@keyframes logoEntrance{
+    from{
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.SkillsHeader{
+    text-align: center;
+}
+
+.SkillsChild{
+    justify-self: center;
+    text-align: center;
+}
+
+.C{
+    grid-column-start: 1;
+    animation: logoEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+    animation-delay: calc(1 * var(--stagger-delay));
+    
+    
+}
+
+img{
+    width:200px;
+    height: 200px;
+
+}

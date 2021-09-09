@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Header from './components/Header/Header';
+import ContactMe from './components/ContactMe/ContactMe'
+import Experience from './components/Experience/Experience';
+import PersonalProject from './components/PersonalProject/PersonalProject';
+import Skills from './components/Skills/Skills';
+import './App.css'
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="HeaderSection" className="HeaderSection">
+        <Header />
+      </div>
+
+      <div id="HomeSection" className="HomeSection">
+      
+        <Home />
+        
+      </div>
+
+      <div id="SkillsSection" className="SkillsSection">
+        
+        <Skills />
+      </div>
+
+      <div id="ExperienceSection" className="ExperienceSection">
+        <Experience />
+      </div>
+
+      <div id="PersonalProjectSection" className="PersonalProjectSection">
+        <PersonalProject />
+      </div>
+
+      <div id="ContactMeSection" className="ContactMeSection">
+        <ContactMe />
+      </div>
+
+
+
     </div>
-  );
+  )
 }
 
 export default App;

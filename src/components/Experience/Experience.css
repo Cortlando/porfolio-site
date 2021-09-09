@@ -1,0 +1,65 @@
+.ExperienceHeader{
+    text-align: center;
+}
+
+.WorkOne{
+    display: block;
+}
+
+.WorkOneTextTitle{
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.WorkOneTextTitleDate{
+    
+}
+
+.ProjectOne{
+    
+    text-align: center;
+    border: solid;
+    border-color: purple;
+}
+
+.ProjectOneText{
+    list-style-position: inside;
+    text-align: initial;
+    overflow: auto;
+}
+
+.ProjectOneButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectOneRepo{
+    padding-right: 5%;
+}
+
+.ProjectTwo{  
+    text-align: center;
+    border: solid;
+    border-color: #F79824;
+}
+
+.ProjectTwoText{
+    text-align: justify;
+    overflow: auto;
+}
+
+#ProjectOneImg{
+    width: 75%;
+    height: 75%;
+}
+
+#ProjectTwoImg{
+    width: 75%;
+    height: 75%;
+}
+
+.Projects{
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+}

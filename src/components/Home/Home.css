@@ -1,0 +1,48 @@
+.HomeBody{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.HomeTitleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HomeTitle{
+    display: block;
+    justify-content: center;
+}
+
+.picContainer{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.MyPic{
+    display: inline-flex;
+   
+}
+
+.MyName{
+    display: flex;
+ 
+    align-items: center;
+    padding-left: 1vh;
+}
+
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: justify; */
+    margin: 0 auto;
+    width: 100%
+}
+
+p{
+    color: white;
+}
