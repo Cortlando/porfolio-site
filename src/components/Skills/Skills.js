@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Header/Header'
 import { Typography } from '@material-ui/core'
 
 import './Skills.css'

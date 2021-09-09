@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Header/Header'
+
 import { Button } from '@material-ui/core'
 import { Typography } from '@material-ui/core'
 import './Experience.css'
@@ -42,7 +42,7 @@ const Experience = () => {
                                     </Typography>
                                 </div>
                                 <div className="ProjectOneImg">
-                                    <img id="ProjectOneImg" src={process.env.PUBLIC_URL + '/ProjectOneImage.png'} alt="Image of Covid-19Tracker" />
+                                    <img id="ProjectOneImg" src={process.env.PUBLIC_URL + '/ProjectOneImage.png'} alt="Covid-19Tracker" />
                                 </div>
                                 <div className="ProjectOneText">
                                     <Typography variant="h5">
@@ -77,7 +77,7 @@ const Experience = () => {
                                     </Typography>
                                 </div>
                                 <div className="ProjectTwoImg">
-                                    <img id="ProjectTwoImg" src={process.env.PUBLIC_URL + '/ProjectTwoImage.png'} alt="Image of Intern Database Manager"/>
+                                    <img id="ProjectTwoImg" src={process.env.PUBLIC_URL + '/ProjectTwoImage.png'} alt="Intern Database Manager"/>
                                 </div>
 
                                 <div className="ProjectTwoText">
@@ -109,16 +109,3 @@ const Experience = () => {
 
 export default Experience
 
-{/* <Typography variant="h5">
-My Team and I created a web application that let the user track Covid-19 cases across the world. When looking at cases within the United States, cases could be sorted by state.<br></br>
-The data needed for the site was obtained through various APIs and was displayed with charts and graphs <br></br>
-The application was developed using React.js and Node.js along with Chart.js and Material-Ui
-</Typography> */}
-
-
-{/* <Typography variant="h5">
-This application was made to allow a user to quickly view and edit a database containg the information of every Discover intern in the Code_Orange program. <br></br>
-Users could add interns to the database,  edit information about interns(email, phone number, etc...), and remove them from the database <br></br>
-The Interns in the database would be organized into tables in the app, and users could sort through them in various ways.(alphabetically, by location, amount of years in program, etc...)<br></br>
-This application was developed using React.js and SpringBoot
-</Typography> */}
