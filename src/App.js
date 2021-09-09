@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import ContactMe from './components/ContactMe/ContactMe'

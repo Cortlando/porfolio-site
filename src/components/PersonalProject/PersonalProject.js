@@ -18,7 +18,7 @@ const PersonalProject = () => {
                         </Typography>
                     </div>
                     <div className="PersonalProjectOneImg">
-                        <img id="PersonalProjectOneImage" src={process.env.PUBLIC_URL + '/ChatRoomApp.png'} alt="Picture of the Chat Room App" />
+                        <img id="PersonalProjectOneImage" src={process.env.PUBLIC_URL + '/ChatRoomApp.png'} alt="Chat Room App" />
                     </div>
                     <div className="PersonalProjectOneText">
                         <Typography variant="h5">

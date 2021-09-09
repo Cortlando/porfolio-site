@@ -1,6 +1,5 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import Header from '../Header/Header';
 import { Email, GitHub, LinkedIn } from '@material-ui/icons';
 import { Typography } from '@material-ui/core';
 import { Link } from '@material-ui/core';
