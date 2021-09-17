@@ -1,16 +1,60 @@
+
 .SkillsBody{
-    display: grid;
-    gap: 1rem;
+    display: flex;
+    /* gap: 1rem; */
 
     /* grid-template-columns: repeat(3, 1fr); */
 
     /* grid-template-columns: repeat(3, minmax(240px, 1fr)); */
 
     grid-template-columns: repeat(3, minmax(auto, 33%));
+    flex-wrap: wrap;
+    
 
-  
+    
 }
 
+.SkillsHeader{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.TechSkillsHeader{
+
+}
+
+.SoftSkillsHeader{
+
+}
+
+.SkillsLogos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    column-gap: 5%;
+}
+
+.Row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.SoftSkills{
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+
+.SoftSkills li {
+    list-style-type: none;
+}
+.SoftSkills li:not(:last-child){
+    margin-bottom: 20%;
+}
 
 
 .SkillsHeader{

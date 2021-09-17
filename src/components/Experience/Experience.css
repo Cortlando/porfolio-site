@@ -19,13 +19,18 @@
     
     text-align: center;
     border: solid;
-    border-color: purple;
+    border-color: #FF9833;
+}
+
+.ProjectOneHeader{
+    font-weight: bold;
 }
 
 .ProjectOneText{
     list-style-position: inside;
     text-align: initial;
     overflow: auto;
+    
 }
 
 .ProjectOneButtons{
@@ -40,12 +45,14 @@
 .ProjectTwo{  
     text-align: center;
     border: solid;
-    border-color: #F79824;
+    border-color: #FF9833;
 }
 
 .ProjectTwoText{
-    text-align: justify;
+    text-align: initial;
+    list-style-position: inside;
     overflow: auto;
+    margin-right: 1%;
 }
 
 #ProjectOneImg{
@@ -59,7 +66,7 @@
 }
 
 .Projects{
-    display: grid;
+    display: flex;
 
     grid-template-columns: repeat(2, minmax(240px, 1fr));
 }

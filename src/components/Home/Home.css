@@ -3,24 +3,26 @@
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .HomeTitleContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .HomeTitle{
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    word-wrap: break-word;
+    
 }
 
-.picContainer{
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-}
+
 
 .MyPic{
     display: inline-flex;
@@ -38,9 +40,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    word-wrap: break-word;
     /* text-align: justify; */
-    margin: 0 auto;
-    width: 100%
+    
+   
 }
 
 p{
