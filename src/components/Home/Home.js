@@ -8,13 +8,9 @@ import './Home.css'
 const useStyles = makeStyles((theme) => ({
     picture: {
         width: theme.spacing(40),
-        height: theme.spacing(40),
+        height: theme.spacing(40)
     },
-    picContainer: {
-        alignItems: "center",
-        justify: "center"
 
-    },
 
 }));
 
@@ -32,7 +28,7 @@ const Home = () => {
                     </div>
                     <div className="HomeTitle">
                         <Typography variant="h1">
-                            CORTLAND ERVINS<br></br>
+                            CORTLAND ERVINS
                         </Typography>
                         <Typography variant="h1">
                             PORTFOLIO
@@ -41,22 +37,10 @@ const Home = () => {
                     </div>
                 </div>
 
-
-
-
-
-
-                <div className="picContainer">
-
-                    <div className="MyPic">
-
-                    </div>
-                </div>
-
                 <div className="summary">
                     <Typography variant="h4">
                         Hello!<br></br>I am a recent graudate of Northern Illinois University and a full stack developer looking to start my career in the field of software development.
-                        I have experience in front-end and back-end development and feel confident in my skills.
+                        I have experience in front-end and back-end development.
 
                     </Typography>
 
