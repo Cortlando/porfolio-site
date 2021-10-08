@@ -1,72 +1,50 @@
 import React from 'react'
+import Box from '@mui/material/Box'
+import { AppBar } from '@mui/material'
 
-import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, Button } from '@material-ui/core';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 
-import './Header.css'
+const theme = createTheme({
+    position: 'fixed',
+    display: 'inline-block',
 
-const useStyles = makeStyles((theme) => ({
-    large: {
-        width: theme.spacing(25),
-        height: theme.spacing(25),
-    },
-    picContainer: {
-        alignItems: "center",
-        justify: "center"
+    
 
-    },
-    appBar: {
-        position: 'fixed',
-        display: 'inline-block',
-
-        background: "#FF9833",
-        zIndex: 1500
-    }
-}));
-
+})
 
 const Header = () => {
 
-    const classes = useStyles()
+
+
     return (
-        <div className="Header">
-            <AppBar className={classes.appBar}>
-                <a href="#HomeSection">  
-                    <Button>Home</Button>
-                </a>
-                <a href="#SkillsSection">  
-                    <Button>Skills</Button>
-                </a>
-                <a href="#ExperienceSection">  
-                    <Button>Experience</Button>
-                </a>
-                <a href="#PersonalProjectSection">  
-                    <Button>Personal Project</Button>
-                </a>
-                <a href="#ContactMeSection">  
-                    <Button>Contact Me</Button>
-                </a>
-            </AppBar>
-        </div>
+        <Box>
+            <ThemeProvider theme={theme}> 
+                <AppBar >
+                    <Stack spacing={2} direction="row">
+                        <a href="#HomeSection">
+                            <Button>Home</Button>
+                        </a>
+                        <a href="#SkillsSection">
+                            <Button>Skills</Button>
+                        </a>
+                        <a href="#ExperienceSection">
+                            <Button>Experience</Button>
+                        </a>
+                        <a href="#PersonalProjectSection">
+                            <Button>Personal Project</Button>
+                        </a>
+                        <a href="#ContactMeSection">
+                            <Button>Contact Me</Button>
+                        </a>
+                    </Stack>
+                </AppBar>
+            </ThemeProvider>
+
+        </Box>
     )
+
 }
 
-/*
-
-                <Link to="/Contact">
-                    <Button> Contact Me </Button>
-                </Link>
-
-                <Link to="/Experience">
-                    <Button> Work Experience </Button>
-                </Link>
-
-                <Link to="/Skills">
-                    <Button> Skills </Button>
-                </Link>
-
-                <Link to="/Projects">
-                    <Button> Projects </Button>
-                </Link>
-*/
 export default Header
