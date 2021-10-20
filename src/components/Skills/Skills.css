@@ -10,7 +10,7 @@
     grid-template-columns: repeat(3, minmax(auto, 33%));
     flex-wrap: wrap;
     
-
+    margin: 0% 5%;
     
 }
 
