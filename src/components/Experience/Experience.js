@@ -65,11 +65,6 @@ const Experience = () => {
                                             Repo
                                         </Button>
                                     </div>
-                                    <div className="ProjectOneLink">
-                                        <Button href="https://covid19trackerproject.com/" variant="contained" color="secondary" size="large" target="_blank" style={{backgroundColor: "#463728"}}>
-                                            Link
-                                        </Button>
-                                    </div>
                                 </div>
 
                             </div>
