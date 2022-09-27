@@ -39,7 +39,7 @@ const Home = () => {
 
                 <div className="summary">
                     <Typography variant="h4">
-                        Hello!<br></br>I am a recent graudate of Northern Illinois University and a full stack developer looking to start my career in the field of software development.
+                        Hello!<br></br>I am a Software Engineer at Amdocs and a full stack developer in my freetime, looking for the next step in my career.
                         I have experience in front-end and back-end development.
 
                     </Typography>
